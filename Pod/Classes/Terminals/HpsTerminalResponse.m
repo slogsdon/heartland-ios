@@ -25,16 +25,16 @@
 +(HpsTerminalResponse*)terminalResponseFromVitalSDK:(TransactionResponse*)transactionResponse
 {
     HpsTerminalResponse *terminalResponse = [[HpsTerminalResponse alloc]init];
-    
     if (terminalResponse != nil) {
         terminalResponse.approvedAmount = transactionResponse.approvedAmount;
         terminalResponse.entryMethod = [C2XEnums cardDataSourceTypeToString:transactionResponse.cardDataSourceType];
         terminalResponse.approvalCode = transactionResponse.gatewayAuthCode;
-        terminalResponse.transactionId = (int)transactionResponse.gatewayTransactionId;
+        terminalResponse.transactionId = [transactionResponse.gatewayTransactionId intValue];
         terminalResponse.maskedCardNumber = transactionResponse.maskedPan;
         terminalResponse.responseText = [NSDictionary valueForAnEnumType:TransactionResultTypeEnum forEnumValue:transactionResponse.transactionResultType];
         terminalResponse.deviceResponseCode = [C2XEnums transactionResultTypeToString:transactionResponse.transactionResultType];
         terminalResponse.tipAmount = transactionResponse.tipAmount;
+        terminalResponse.terminalRefNumber = transactionResponse.posReferenceNumber;
         terminalResponse.transactionType =[C2XEnums transactionTypeToString:transactionResponse.transactionType];
         if (transactionResponse.receipt != nil) {
             terminalResponse.applicationId = transactionResponse.receipt.aid;
@@ -47,7 +47,7 @@
             terminalResponse.entryMethod = [C2XEnums cardDataSourceTypeToString:transactionResponse.receipt.posEntryMode];
             terminalResponse.terminalVerficationResult = transactionResponse.receipt.terminalVerificationResult;
             terminalResponse.transactionAmount = [NSNumber numberWithInteger:[transactionResponse.receipt.transactionAmount integerValue]];//transactionResponse.receipt.transactionAmount;
-            terminalResponse.transactionId = (int)transactionResponse.receipt.transactionId;
+            terminalResponse.transactionId = [transactionResponse.receipt.transactionId intValue];
             terminalResponse.transactionType = [C2XEnums transactionTypeToString:transactionResponse.receipt.transactionType];
         }
         

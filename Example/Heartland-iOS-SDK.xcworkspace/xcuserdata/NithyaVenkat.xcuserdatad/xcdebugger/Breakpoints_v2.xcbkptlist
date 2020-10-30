@@ -12,6 +12,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Heartland-iOS-SDK/HpsViewController.m"
+            timestampString = "0"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "40"
@@ -28,6 +29,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../Pod/Classes/Terminals/C2X/HpsBluetoothReceiver.m"
+            timestampString = "0"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "6"
@@ -44,6 +46,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../Pod/Classes/Terminals/C2X/HpsBluetoothReceiver.m"
+            timestampString = "0"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "24"
@@ -60,11 +63,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../Pod/Classes/Terminals/C2X/HpsC2xDevice.m"
+            timestampString = "0"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "204"
             endingLineNumber = "204"
-            landmarkName = "-onTerminalInfoReceived:"
+            landmarkName = "-onDisconnected"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -76,12 +80,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Tests/Hps_C2X_Device_Test.m"
+            timestampString = "0"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "127"
-            endingLineNumber = "127"
-            landmarkName = "-onTransactionComplete:"
-            landmarkType = "7">
+            startingLineNumber = "95"
+            endingLineNumber = "95">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -92,172 +95,75 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Tests/Hps_C2X_Device_Test.m"
+            timestampString = "0"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "76"
             endingLineNumber = "76"
-            landmarkName = "-test_Creditsale"
-            landmarkType = "7">
+            landmarkName = "Hps_C2X_Device_Test"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "153032DC-A520-4444-AEF4-5BE2C7A30662"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "../Pod/Classes/Terminals/C2X/HpsC2xBaseBuilder.m"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "14"
-            endingLineNumber = "14"
-            landmarkName = "-execute"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "9C76CA28-0A50-4FAA-B3AB-86DAF559768A"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "../Pod/Classes/Terminals/C2X/HpsC2xCreditSaleBuilder.m"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "6"
-            endingLineNumber = "6"
-            landmarkName = "-initWithDevice:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "2B1B58C6-4A2D-4F1C-B22F-96A3F7DFE9C9"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "../Pod/Classes/Terminals/C2X/HpsC2xCreditSaleBuilder.m"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
-            landmarkName = "-buildRequest"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "465AF3DD-2E2B-4EF3-B89B-13918D2F01C3"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "../Pod/Classes/Terminals/C2X/HpsC2xBaseBuilder.m"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "5"
-            endingLineNumber = "5"
-            landmarkName = "-initWithDevice:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "05FE59EA-6DA4-4BD7-8808-DB8675C65C38"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "../Pod/Classes/Terminals/C2X/HpsC2xBaseBuilder.m"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "21"
-            endingLineNumber = "21"
-            landmarkName = "-buildRequest"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "465D476D-632D-4001-A67B-7E309C1CA431"
+            uuid = "AA5FAC4B-584A-4283-A166-C7532BCAA135"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Tests/Hps_C2X_Device_Test.m"
+            timestampString = "0"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "73"
             endingLineNumber = "73"
-            landmarkName = "-test_Creditsale"
+            landmarkName = "-onDisconnected"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "41539EFD-3BF7-4C01-9DAA-86DC8FF7F0CC"
+            uuid = "5055AA69-BB60-4784-82C2-BA7687C35D42"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Tests/Hps_C2X_Device_Test.m"
+            timestampString = "0"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "119"
-            endingLineNumber = "119"
-            landmarkName = "-onStatusUpdate:"
-            landmarkType = "7">
+            startingLineNumber = "95"
+            endingLineNumber = "95">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "8CFB8110-9A77-4F34-8C96-67E1DA1B174D"
+            uuid = "05315AB7-C372-4F2A-AB35-C7BEF793C098"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Tests/Hps_C2X_Device_Test.m"
+            timestampString = "0"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "123"
-            endingLineNumber = "123"
-            landmarkName = "-onCardholderInteractionRequested:"
-            landmarkType = "7">
+            startingLineNumber = "95"
+            endingLineNumber = "95">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "E22A9497-41F5-4438-900E-2AB388BAED26"
+            uuid = "CBABFC97-D734-4422-9C2F-7E370DD18B4D"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Tests/Hps_C2X_Device_Test.m"
+            timestampString = "0"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "134"
-            endingLineNumber = "134"
-            landmarkName = "-onError:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "40905602-2E3D-4DD3-ADD7-9C9FC4C8C1B4"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "../Pod/Classes/Terminals/C2X/HpsC2xDevice.m"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "140"
-            endingLineNumber = "140"
-            landmarkName = "-processTransactionWithRequest:"
-            landmarkType = "7">
+            startingLineNumber = "95"
+            endingLineNumber = "95">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -268,6 +174,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../Pod/Classes/Terminals/C2X/HpsC2xDevice.m"
+            timestampString = "0"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "158"
@@ -284,6 +191,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../Pod/Classes/Terminals/C2X/HpsC2xDevice.m"
+            timestampString = "0"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "166"
@@ -295,31 +203,48 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "DE24B442-C157-4152-832B-52462C6E5BB1"
+            uuid = "4C71350A-07C0-412C-B0A9-018A1306864E"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../Pod/Classes/Terminals/C2X/HpsC2xDevice.m"
+            timestampString = "0"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "174"
-            endingLineNumber = "174"
-            landmarkName = "-onTransactionComplete:"
+            startingLineNumber = "212"
+            endingLineNumber = "212"
+            landmarkName = "-onTerminalInfoReceived:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "E48F3B93-F6F3-42B8-BCD5-E6082E9C910F"
+            uuid = "29ABCB07-7319-443C-AB85-AC1B3C21ADE3"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "../Pod/Classes/Terminals/C2X/HpsC2xDevice.m"
+            filePath = "Tests/Hps_C2x_Credit_Test.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "182"
-            endingLineNumber = "182"
+            startingLineNumber = "217"
+            endingLineNumber = "217"
+            landmarkName = "-test_Credit_Tip_Adjust"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0C3B5BF4-1E86-40C5-9B21-90D0812D6AC1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tests/Hps_C2x_Credit_Test.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "385"
+            endingLineNumber = "385"
             landmarkName = "-onError:"
             landmarkType = "7">
          </BreakpointContent>
@@ -327,48 +252,110 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "18E17AD4-EF6F-4EE2-88E4-0AF70B5198EB"
+            uuid = "33B1782C-D7EA-4E2E-9252-D9F6DCA2DC55"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "../Pod/Classes/Terminals/C2X/HpsC2xDevice.m"
+            filePath = "Tests/Hps_C2x_Credit_Test.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "193"
-            endingLineNumber = "193"
-            landmarkName = "-onConnected:"
+            startingLineNumber = "140"
+            endingLineNumber = "140"
+            landmarkName = "-processTransactionWithRequest:"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A24FD1D4-B50B-40D6-BEC1-84BD159EA38E - 6da81147b5fc5c8b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__46-[Hps_C2x_Credit_Test test_Credit_Sale_Manual]_block_invoke_2"
+                  moduleName = "Heartland-iOS-SDK_Tests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/NithyaVenkat/Documents/GLOBALPAYMENTS/c2x/CreditSale/Heartland-iOS-SDK/Example/Tests/Hps_C2x_Credit_Test.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "99"
+                  endingLineNumber = "99"
+                  offsetFromSymbolStart = "256">
+               </Location>
+               <Location
+                  uuid = "A24FD1D4-B50B-40D6-BEC1-84BD159EA38E - 6da81147b5fc5c8b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__46-[Hps_C2x_Credit_Test test_Credit_Sale_Manual]_block_invoke_2"
+                  moduleName = "Heartland-iOS-SDK_Tests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/NithyaVenkat/Documents/GLOBALPAYMENTS/c2x/CreditSale/Heartland-iOS-SDK/Example/Tests/Hps_C2x_Credit_Test.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "99"
+                  endingLineNumber = "99"
+                  offsetFromSymbolStart = "584">
+               </Location>
+               <Location
+                  uuid = "A24FD1D4-B50B-40D6-BEC1-84BD159EA38E - 6da81147b5fc5c8b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__46-[Hps_C2x_Credit_Test test_Credit_Sale_Manual]_block_invoke_2"
+                  moduleName = "Heartland-iOS-SDK_Tests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/NithyaVenkat/Documents/GLOBALPAYMENTS/c2x/CreditSale/Heartland-iOS-SDK/Example/Tests/Hps_C2x_Credit_Test.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "99"
+                  endingLineNumber = "99"
+                  offsetFromSymbolStart = "1044">
+               </Location>
+               <Location
+                  uuid = "A24FD1D4-B50B-40D6-BEC1-84BD159EA38E - 6da81147b5fc5c8b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__46-[Hps_C2x_Credit_Test test_Credit_Sale_Manual]_block_invoke_2"
+                  moduleName = "Heartland-iOS-SDK_Tests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/NithyaVenkat/Documents/GLOBALPAYMENTS/c2x/CreditSale/Heartland-iOS-SDK/Example/Tests/Hps_C2x_Credit_Test.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "99"
+                  endingLineNumber = "99"
+                  offsetFromSymbolStart = "1128">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "4C71350A-07C0-412C-B0A9-018A1306864E"
+            uuid = "F1F6F650-4EA9-418D-A4EE-7A37943DD166"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "../Pod/Classes/Terminals/C2X/HpsC2xDevice.m"
+            filePath = "../Pod/Classes/Terminals/C2X/HpsC2xBaseBuilder.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "212"
-            endingLineNumber = "212"
-            landmarkName = "-onError"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "3450264B-C0E9-46FC-8A1B-B0FC06B2F60F"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "../Pod/Classes/Terminals/C2X/HpsC2xCreditSaleBuilder.m"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "17"
-            endingLineNumber = "17"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
             landmarkName = "-execute"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "26430FE9-09FF-4DBC-BD11-647E3DB94641"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Pod/Classes/Terminals/C2X/HpsC2xCreditAdjustBuilder.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "-buildRequest"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

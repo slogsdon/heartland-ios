@@ -1,7 +1,8 @@
-#import "HpsC2xCreditSaleBuilder.h"
+
+#import "HpsC2xCreditAuthBuilder.h"
 #import "EMVCore/EMVCore.h"
 
-@implementation HpsC2xCreditSaleBuilder
+@implementation HpsC2xCreditAuthBuilder
 
 - (id)initWithDevice: (HpsC2xDevice*)c2xdevice{
     self = [super initWithDevice:c2xdevice];
@@ -18,7 +19,6 @@
     TransactionRequest *request = [TransactionRequest new];
     request.tenderType = TenderTypeCredit;
     request.transactionType = TransactionTypeSale;
-    request.taxCategory = TaxCategorySale;
     if (self.amount!= nil) {
         request.total = self.amount;
     }
@@ -71,4 +71,3 @@
            
 }
 @end
-    

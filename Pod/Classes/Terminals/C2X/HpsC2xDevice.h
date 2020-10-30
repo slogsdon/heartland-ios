@@ -13,6 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) HpsConnectionConfig *config;
 @property (nonatomic, strong, nullable) CBCentralManager *centralManager;
 @property (nonatomic, strong) TransactionManager *transactionManager;
+@property (nonatomic, strong) CardholderInteractionResult *interactionResult;
 
 @property (nonatomic, strong) id<HpsC2xTransactionDelegate> transactionDelegate;
 @property (nonatomic, strong) id<HpsC2xDeviceDelegate> deviceDelegate;

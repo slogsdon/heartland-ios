@@ -4,6 +4,7 @@
 #import "HpsC2xCreditSaleBuilder.h"
 #import "HpsCreditCard.h"
 #import "HpsAddress.h"
+#import "HpsC2xBatchCloseBuilder.h"
 
 @interface Hps_C2X_Device_Test : XCTestCase<HpsC2xDeviceDelegate,HpsC2xTransactionDelegate>
 {
@@ -61,29 +62,6 @@
     XCTAssert(YES, @"Device Connected");
 }
 
--(void)test_Creditsale
-{
-    deviceConnectionExpectation = [self expectationWithDescription:@"test_C2X_DeviceConnected"];
-    [self deviceSetUp];
-    [self.device initialize];
-    self.device.deviceDelegate = self;
-    [self waitForExpectationsWithTimeout:10.0 handler:^(NSError *error) {
-               if(error) XCTFail(@"Request Timed out");
-        transactionExpectation = [self expectationWithDescription:@"test_C2X_CreditSale"];
-        HpsC2xCreditSaleBuilder *builder = [[HpsC2xCreditSaleBuilder alloc]initWithDevice:self.device];
-        builder.amount = [[NSDecimalNumber alloc]initWithDouble:11.00];
-        builder.creditCard = [self getCC];
-        self.device.transactionDelegate = self;
-        [builder execute];
-        [self waitForExpectationsWithTimeout:20.0 handler:^(NSError *error) {
-                      if(error) XCTFail(@"Request Timed out");
-            }];
-                  }];
-    XCTAssert(YES, @"Device Connected");
-    
-}
-
-
 #pragma mark - Device Delegate methods
 - (void)onConnected:(HpsTerminalInfo *)terminalInfo
 {
@@ -113,27 +91,4 @@
         }
     }
 }
-
-
-#pragma mark - Transaction Delegate methods
-- (void)onStatusUpdate:(HpsC2xTransactionStatus)transactionStatus
-{
-    
-}
-- (void)onCardholderInteractionRequested:(HpsCardholderInteractionRequest *)request
-{
-    
-}
-- (void)onTransactionComplete:(HpsTerminalResponse *)response
-{
-    NSLog(@"Transaction completed");
-    XCTAssertNotNil(response,@"Terminal response is nil");
-    [transactionExpectation fulfill];
-    
-}
-- (void)onError:(NSError *)emvError
-{
-    NSLog(@"%@",emvError);
-}
-
 @end

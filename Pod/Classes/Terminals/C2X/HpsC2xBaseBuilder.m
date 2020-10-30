@@ -21,6 +21,9 @@
 -(TransactionRequest*)buildRequest
 {
     TransactionRequest *request = [TransactionRequest new];
+    request.tip = 0;
+    request.total = 0;
+    request.tax = 0;
     return request;
 }
 

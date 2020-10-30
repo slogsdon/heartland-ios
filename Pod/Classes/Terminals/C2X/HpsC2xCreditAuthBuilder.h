@@ -8,11 +8,10 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface HpsC2xCreditSaleBuilder : HpsC2xBaseBuilder
+@interface HpsC2xCreditAuthBuilder : HpsC2xBaseBuilder
 {
     HpsC2xDevice *device;
 }
-
 @property (nonatomic, strong) NSDecimalNumber *amount;
 @property (nonatomic, strong) NSString *referenceNumber;
 @property (nonatomic, strong) HpsCreditCard *creditCard;
@@ -21,7 +20,6 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) NSDecimalNumber *gratuity;
 @property (nonatomic, strong) NSString *cardHolderName;
 - (id)initWithDevice: (HpsC2xDevice*)c2xdevice;
-
 @end
 
 NS_ASSUME_NONNULL_END

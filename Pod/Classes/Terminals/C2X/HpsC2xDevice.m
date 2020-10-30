@@ -167,8 +167,11 @@
 {
     if (self.transactionDelegate!= nil && [self.transactionDelegate respondsToSelector:@selector(onCardholderInteractionRequested:)])
     {
+        self.interactionResult = [CardholderInteractionResult new];        
         [self.transactionDelegate onCardholderInteractionRequested:(HpsCardholderInteractionRequest *) request];
     }
+    
+    [self.transactionManager sendCardholderInteractionResult:self.interactionResult];
     
 }
 - (void)onTransactionComplete:(TransactionResponse *)response
