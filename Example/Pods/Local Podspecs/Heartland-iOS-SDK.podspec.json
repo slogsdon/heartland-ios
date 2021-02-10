@@ -13,7 +13,7 @@
     "tag": "1.1.10"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
   "requires_arc": true,
   "source_files": "Pod/Classes/**/*",
@@ -30,6 +30,17 @@
     ],
     "VitalSDK": [
 
+    ],
+    "BBPOS": [
+      "1.0.1"
+    ],
+    "EMVCore": [
+
+    ],
+    "BBDeviceSPoC": [
+
     ]
-  }
+  },
+  "swift_versions": "5.0",
+  "swift_version": "5.0"
 }

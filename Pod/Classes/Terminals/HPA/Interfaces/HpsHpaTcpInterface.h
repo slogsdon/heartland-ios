@@ -1,6 +1,7 @@
 #import <Foundation/Foundation.h>
 #import "HpsConnectionConfig.h"
 #import "HpsDeviceProtocols.h"
+#import "HpaEnums.h"
 
 	// Block typedefs
 @class HpsHpaTcpInterface;

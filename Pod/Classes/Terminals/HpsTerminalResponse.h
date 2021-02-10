@@ -4,7 +4,6 @@
 #import "HpsTerminalEnums.h"
 #import "HpsPaxHostResponse.h"
 #import "HpsHpaResponse.h"
-#import <EMVCore/EMVCore.h>
 
 @class HpsHpaResponse;
 
@@ -19,7 +18,7 @@
 
 @property (nonatomic,strong) NSString *deviceResponseMessage;
 @property (nonatomic,strong) NSString *responseText;
-@property (nonatomic,readwrite) int transactionId;
+@property (nonatomic,readwrite) NSString *transactionId;
 @property (nonatomic,strong) NSString *terminalRefNumber;
 @property (nonatomic,strong) HpsTokenData *tokenData;
 @property (nonatomic,strong) NSString *signatureStatus;
@@ -28,7 +27,7 @@
 @property (nonatomic,strong) NSString *entryMethod;
 
 @property (nonatomic,strong) NSString *maskedCardNumber;
-@property (nonatomic) int entryMode;                //authrizationCode missing
+@property (nonatomic) int entryMode;
 @property (nonatomic,strong) NSString *approvalCode;
 
 @property (nonatomic,strong) NSNumber *transactionAmount;
@@ -64,8 +63,10 @@
 @property (nonatomic,strong) NSString *terminalVerficationResult;
 @property (nonatomic,strong) NSString *terminalSerialNumber;
 @property (nonatomic) BOOL storedResponse;
-@property (nonatomic,readwrite) int lastResponseTransactionId;
+@property (nonatomic,readwrite) NSString *lastResponseTransactionId;
 
 - (void) mapResponse:(id <HpaResposeInterface>) response;
-+(HpsTerminalResponse*)terminalResponseFromVitalSDK:(TransactionResponse*)transactionResponse;
+// @todo
+//+(HpsTerminalResponse*)terminalResponseFromVitalSDK:(TransactionResponse*)transactionResponse;
+
 @end

@@ -69,10 +69,6 @@
 #import "HpsGatewayService.h"
 #import "HpsTableService.h"
 #import "HpsTokenService.h"
-#import "C2XEnums.h"
-#import "HpsC2xDevice.h"
-#import "HpsC2xDeviceDelegate.h"
-#import "HpsC2xTransactionDelegate.h"
 #import "HpsHpaCreditAuthBuilder.h"
 #import "HpsHpaCreditCaptureBuilder.h"
 #import "HpsHpaCreditRefundBuilder.h"
@@ -176,9 +172,6 @@
 #import "NSObject+ObjectMap.h"
 #import "HpsCardEntryViewController.h"
 #import "HpsCardInfoViewController.h"
-#import "HpsCardholderInteractionRequest.h"
-#import "HpsTerminalInfo.h"
-#import "HpsC2xBatchCloseBuilder.h"
 
 FOUNDATION_EXPORT double Heartland_iOS_SDKVersionNumber;
 FOUNDATION_EXPORT const unsigned char Heartland_iOS_SDKVersionString[];

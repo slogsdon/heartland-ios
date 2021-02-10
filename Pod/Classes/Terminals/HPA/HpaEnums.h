@@ -32,7 +32,8 @@ typedef NS_ENUM(NSInteger, HPA_MSG_ID) {
     SEND_SAF,
     GET_DIAGNOSTIC_REPORT,
     EXECUTE_EOD,
-    SEND_FILE
+    SEND_FILE,
+    NOTIFICATION
 };
 
 typedef NS_ENUM(NSInteger, HPA_DOWNLOAD_TIME) {

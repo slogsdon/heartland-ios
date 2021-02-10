@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => "https://github.com/hps/heartland-ios.git", :tag => s.version.to_s }
  
 
-  s.platform     = :ios, '8.0'
+  s.platform     = :ios, '9.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
@@ -39,4 +39,8 @@ Pod::Spec.new do |s|
   s.frameworks = 'UIKit'
   s.dependency 'XMLDictionary'
   s.dependency 'VitalSDK'
+  s.dependency 'BBPOS', '1.0.1'
+  s.dependency 'EMVCore'
+  s.dependency 'BBDeviceSPoC'
+  s.swift_version = '5.0'
 end

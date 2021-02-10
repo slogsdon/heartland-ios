@@ -2,17 +2,16 @@ PODS:
   - BBDeviceSPoC (1.0.0)
   - BBPOS (1.0.1)
   - EMVCore (1.0.1)
-  - GlobalPaymentsApi (1.0.0)
+  - GlobalPaymentsApi (1.0.2)
   - Heartland-iOS-SDK (1.1.10):
+    - BBDeviceSPoC
+    - BBPOS (= 1.0.1)
+    - EMVCore
     - VitalSDK
     - XMLDictionary
-  - Portico (1.0.0)
-  - VitalSDK (1.0.1):
-    - BBDeviceSPoC
+  - VitalSDK (1.0.2):
     - BBPOS
-    - EMVCore
     - GlobalPaymentsApi
-    - Portico
   - XMLDictionary (1.4.1)
 
 DEPENDENCIES:
@@ -24,7 +23,6 @@ SPEC REPOS:
     - BBPOS
     - EMVCore
     - GlobalPaymentsApi
-    - Portico
     - VitalSDK
     - XMLDictionary
 
@@ -36,12 +34,11 @@ SPEC CHECKSUMS:
   BBDeviceSPoC: 43bcc9756f7a334890a5838c0b71e1074f4c3fb3
   BBPOS: 2b11ca7c113f426a76d8b15bb370ac89624799eb
   EMVCore: 2bf1f1c5f35731420cd34b5dc401b1c9edea7f6f
-  GlobalPaymentsApi: d0433a42bb01bf6e1ed251020bd3f9b62666ca40
-  Heartland-iOS-SDK: 9442d75e92332f19f3f67b6c70f02163b2246be7
-  Portico: 5c8570b83b18f10e4caf032773be734fd9640a25
-  VitalSDK: 0272d9a6af6d2f69d03f5246e018c275fd5258f2
+  GlobalPaymentsApi: a5c7d90f3d9a8d3406394769c1a67fff28a2382c
+  Heartland-iOS-SDK: bcce850603ba27c426019593f566a8918a17a14e
+  VitalSDK: 0732174b9d4f41c891cbe74f15fbd6e7e66084a4
   XMLDictionary: fa07b6ff422b3a91d47a5de9bc82e3fc04fbd167
 
-PODFILE CHECKSUM: a2d4770e303e82c0989fd39f53fa31499ac49ee9
+PODFILE CHECKSUM: 749bdb42e7856575acb5efb1495002f39403a84e
 
-COCOAPODS: 1.9.3
+COCOAPODS: 1.10.1

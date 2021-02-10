@@ -1,5 +1,4 @@
 #import <Foundation/Foundation.h>
-#import <EMVCore/EMVCore.h>
 
 @interface HpsConnectionConfig : NSObject
 
@@ -12,18 +11,13 @@
 @property (nonatomic) NSInteger dataBits;
 @property (nonatomic) NSInteger *timeout;
 
+@property (nonatomic, strong) NSString *versionNumber;
+@property (nonatomic, strong) NSString *developerID;
+@property (nonatomic, strong) NSString *licenseID;
+@property (nonatomic, strong) NSString *siteID;
+@property (nonatomic, strong) NSString *username;
+@property (nonatomic, strong) NSString *password;
+@property (nonatomic, strong) NSString *deviceID;
+@property (nonatomic) BOOL isProduction;
 
-@property (nonatomic, strong) NSString *VersionNumber;
-@property (nonatomic, strong) NSString *DeveloperID;
-@property (nonatomic, strong) NSString *LicenseID;
-@property (nonatomic, strong) NSString *SiteID;
-@property (nonatomic, strong) NSString *Username;
-@property (nonatomic, strong) NSString *Password;
-@property (nonatomic, strong) NSString *DeviceID;
-
-
--(TerminalConfiguration *)terminalConfig:(TerminalType)terminalType
-                         withTerminalName:(NSString *)terminalName;
--(GatewayConfiguration *)gatewayConfig:(GatewayType)gatewayType;
--(TransactionConfiguration *)transactionConfiguration;
 @end

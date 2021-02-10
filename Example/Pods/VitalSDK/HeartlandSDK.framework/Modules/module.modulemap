@@ -1,6 +1,0 @@
-framework module HeartlandSDK {
-  umbrella header "HeartlandSDK.h"
-
-  export *
-  module * { export * }
-}
